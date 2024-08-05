@@ -29,7 +29,7 @@ body {
   align-items: center;
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 800px;
   background-image: url("./assets/images/pattern-curve.svg");
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -42,4 +42,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (width>1300px) {
+  .outer-container{
+    min-height: 100vh;
+  }
 }

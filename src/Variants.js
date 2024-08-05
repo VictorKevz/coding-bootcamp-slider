@@ -1,3 +1,4 @@
+
 export const imageVariants = {
   initial: { opacity: 0, x: 50 },
   animate: {
