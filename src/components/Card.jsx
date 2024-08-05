@@ -22,7 +22,7 @@ function Card() {
   return (
     <motion.div
       className={`card-wrapper`}
-      // variants={entryVariants}
+      variants={entryVariants}
       initial="initial"
       animate="animate"
       role="region"
@@ -36,7 +36,7 @@ function Card() {
               <motion.div
                 key={imgSrc}
                 className="image-wrapper"
-                // variants={imageVariants}
+                variants={imageVariants}
                 initial="initial"
                 animate="animate"
                 exit="exit"
@@ -68,7 +68,7 @@ function Card() {
             <motion.p
               key={parag}
               className="card-parag"
-              // variants={textVariants}
+              variants={textVariants}
               initial="initial"
               animate="animate"
               exit="initial"
@@ -80,7 +80,7 @@ function Card() {
             <motion.h1
               key={name}
               className="card-title"
-              // variants={textVariants}
+              variants={textVariants}
               initial="initial"
               animate="animate"
               exit="initial"
