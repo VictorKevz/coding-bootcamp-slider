@@ -43,8 +43,8 @@ body {
   flex-direction: column;
   align-items: center;
 }
-@media (width>1300px) {
+/* @media (width>1300px) {
   .outer-container{
     min-height: 100vh;
   }
-}
+} */
