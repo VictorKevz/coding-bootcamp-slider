@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+:root{
+  --Dark-Blue: hsl(240, 38%, 20%);
+--Grayish-Blue: hsl(240, 18%, 77%);
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  background-color: #ffffff;
+  color: var(--Dark-Blue);
+  overflow-x: hidden;
+}
+
+.outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./assets/images/pattern-curve.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.inner-container {
+  min-height: fit-content;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
